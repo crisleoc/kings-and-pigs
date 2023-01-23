@@ -18,7 +18,7 @@ let levels = {
                     x: 0,
                     y: 0
                 },
-                imageSrc: '../assets/img/backgroundLevel1.png'
+                imageSrc: './assets/img/backgroundLevel1.png'
             })
 
             doors = [
@@ -27,7 +27,7 @@ let levels = {
                         x: 767,
                         y: 270,
                     },
-                    imageSrc: '../assets/img/doorOpen.png',
+                    imageSrc: './assets/img/doorOpen.png',
                     frameRate: 5,
                     frameBuffer: 5,
                     loop: false,
@@ -51,7 +51,7 @@ let levels = {
                     x: 0,
                     y: 0
                 },
-                imageSrc: '../assets/img/backgroundLevel2.png'
+                imageSrc: './assets/img/backgroundLevel2.png'
             })
 
             doors = [
@@ -60,7 +60,7 @@ let levels = {
                         x: 772,
                         y: 336,
                     },
-                    imageSrc: '../assets/img/doorOpen.png',
+                    imageSrc: './assets/img/doorOpen.png',
                     frameRate: 5,
                     frameBuffer: 5,
                     loop: false,
@@ -84,7 +84,7 @@ let levels = {
                     x: 0,
                     y: 0
                 },
-                imageSrc: '../assets/img/backgroundLevel3.png'
+                imageSrc: './assets/img/backgroundLevel3.png'
             })
 
             doors = [
@@ -93,7 +93,7 @@ let levels = {
                         x: 176,
                         y: 335,
                     },
-                    imageSrc: '../assets/img/doorOpen.png',
+                    imageSrc: './assets/img/doorOpen.png',
                     frameRate: 5,
                     frameBuffer: 5,
                     loop: false,

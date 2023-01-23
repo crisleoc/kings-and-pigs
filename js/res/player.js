@@ -1,36 +1,36 @@
 const player = new Player({
-    imageSrc: '../assets/img/king/idle.png',
+    imageSrc: './assets/img/king/idle.png',
     frameRate: 11,
     animations: {
         idleRight: {
             frameRate: 11,
             frameBuffer: 4,
             loop: true,
-            imageSrc: '../assets/img/king/idle.png',
+            imageSrc: './assets/img/king/idle.png',
         },
         idleLeft: {
             frameRate: 11,
             frameBuffer: 4,
             loop: true,
-            imageSrc: '../assets/img/king/idleLeft.png',
+            imageSrc: './assets/img/king/idleLeft.png',
         },
         runRight: {
             frameRate: 8,
             frameBuffer: 8,
             loop: true,
-            imageSrc: '../assets/img/king/runRight.png',
+            imageSrc: './assets/img/king/runRight.png',
         },
         runLeft: {
             frameRate: 8,
             frameBuffer: 8,
             loop: true,
-            imageSrc: '../assets/img/king/runLeft.png',
+            imageSrc: './assets/img/king/runLeft.png',
         },
         enterDoor: {
             frameRate: 8,
             frameBuffer: 4,
             loop: false,
-            imageSrc: '../assets/img/king/enterDoor.png',
+            imageSrc: './assets/img/king/enterDoor.png',
             onComplete: () => {
                 gsap.to(overlay, {
                     opacity: 1,
